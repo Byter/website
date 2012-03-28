@@ -34,6 +34,10 @@ grails.project.dependency.resolution = {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
 
         // runtime 'mysql:mysql-connector-java:5.1.16'
+        compile ("org.codehaus.groovy.modules.http-builder:http-builder:0.5.2") {
+            excludes 'groovy', 'xml-apis'
+        }
+        runtime 'postgresql:postgresql:8.4-702.jdbc3'
     }
 
     plugins {
@@ -47,5 +51,8 @@ grails.project.dependency.resolution = {
         //runtime ":yui-minify-resources:0.1.4"
 
         build ":tomcat:$grailsVersion"
+        build ":git:1.0-SNAPSHOT"
+        compile ':heroku:1.0'
+        compile ':cloud-support:1.0.8'
     }
 }

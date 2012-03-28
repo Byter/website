@@ -18,6 +18,18 @@
   <r:layoutResources />
 </head>
 <body>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li>Why</li>
+        <li>What</li>
+        <li>When</li>
+        <li>Where</li>
+        <li>Who</li>
+        <li>How</li>
+      </ul>
+    </nav>
+  </header>
 <g:layoutBody/>
 <div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
 <g:javascript library="application"/>

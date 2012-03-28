@@ -6,7 +6,8 @@
   </head>
   <body>
     <section>
-      <img src="${resource(dir:'images', file:'byter.jpg')}"
+      <img id="byterLogo"
+           src="${resource(dir:'images', file:'byter.jpg')}"
            alt="Learn more about Byter, a revolutionary restaurant platform for the 21st century"
            />
     </section>
