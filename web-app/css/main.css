@@ -37,7 +37,7 @@ html * {
 }
 
 body {
-	color: #333333;
+	color: #D7D7D7;
 	margin: 0 auto;
 	max-width: 800px;
 	overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
@@ -48,7 +48,7 @@ body {
 }
 
 a:link, a:visited, a:hover {
-	color: silver;
+	color: #ACACAC;
 }
 
 a:hover, a:active {
@@ -56,9 +56,8 @@ a:hover, a:active {
 }
 
 h1 {
-	color: silver;
 	font-weight: normal;
-	font-size: 1.25em;
+	font-size: 350%;
 	margin: 0.8em 0 0.3em 0;
 }
 
@@ -72,26 +71,13 @@ img {
 
 /* GENERAL */
 
-.content {
-}
-
-.content h1 {
-	border-bottom: 1px solid #CCCCCC;
-	margin: 0.8em 1em 0.3em;
-	padding: 0 0.25em;
-}
-
-.scaffold-list h1 {
-	border: none;
-}
-
 .spinner {
 	background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
 	height: 16px;
 	width: 16px;
-    padding: 0.5em;
-    position: absolute;
-    right: 0;
+        padding: 0.5em;
+        position: absolute;
+        right: 0;
 	top: 0;
 	text-indent: -9999px;
 }
@@ -100,9 +86,8 @@ img {
 
 .nav {
 	background-color: black;
-        color:silver;
-	padding: 0.5em 0.75em;
-        font-size: 250%; 
+        padding: 0.5em 0.75em;
+        font-size: 200%; 
         font-weight:bold;
 	-moz-box-shadow: 0 0 3px 1px #aaaaaa;
 	-webkit-box-shadow: 0 0 3px 1px #aaaaaa;
@@ -153,4 +138,8 @@ img {
 
 #byterLogo {
     width:100%;
+}
+
+p {
+    margin-bottom: 1.25em;
 }
