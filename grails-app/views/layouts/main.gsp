@@ -21,9 +21,9 @@
   <header>
     <nav class="nav">
       <ul>
-        <li><g:link action="index" controller="home">Home</g:link></li>
-        <li><g:link action="why" controller="home">Why</g:link></li>
-        <li>What</li>
+        <li><g:link action="index" controller="discover">Home</g:link></li>
+        <li><g:link action="why" controller="discover">Why</g:link></li>
+        <li><g:link action="what" controller="discover">What</g:link></li>
         <li>When</li>
         <li>Where</li>
         <li>Who</li>
