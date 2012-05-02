@@ -4,4 +4,6 @@ class DiscoverController {
 
     def why() { }
     def what() {}
+    def when() {}
+    def who() {}
 }
